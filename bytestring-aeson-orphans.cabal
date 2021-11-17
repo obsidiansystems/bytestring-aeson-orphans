@@ -32,5 +32,10 @@ library
 
   exposed-modules: ByteString.Aeson.Orphans
 
-  other-extensions: TemplateHaskell
+  other-extensions:
+    CPP
+    DerivingStrategies
+    FlexibleContexts
+    GeneralizedNewtypeDeriving
+    StandaloneDeriving
   ghc-options: -Wall -fno-warn-unused-do-bind -fwarn-tabs -funbox-strict-fields -O2 -fprof-auto-calls
