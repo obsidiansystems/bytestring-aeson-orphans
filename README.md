@@ -1,3 +1,7 @@
 # bytestring-aeson-orphans
+[![Haskell](https://img.shields.io/badge/language-Haskell-orange.svg)](https://haskell.org) [![Hackage](https://img.shields.io/hackage/v/bytestring-aeson-orphans.svg)](https://hackage.haskell.org/package/bytestring-aeson-orphans) [![Hackage CI](https://matrix.hackage.haskell.org/api/v2/packages/bytestring-aeson-orphans/badge)](https://matrix.hackage.haskell.org/#/package/bytestring-aeson-orphans) [![Travis CI](https://api.travis-ci.org/obsidiansystems/bytestring-aeson-orphans.svg?branch=develop)](https://travis-ci.org/obsidiansystems/bytestring-aeson-orphans) [![Github CI](https://github.com/obsidiansystems/bytestring-aeson-orphans/workflows/Haskell%20CI/badge.svg)](https://github.com/obsidiansystems/bytestring-aeson-orphans/actions) [![BSD3 License](https://img.shields.io/badge/license-BSD3-blue.svg)](https://github.com/obsidiansystems/bytestring-aeson-orphans/blob/master/LICENSE)
 
-Aeson instances for ByteString, using base 64 encoding
+_Aeson instances for ByteString, using base 64 encoding._
+
+***
+[![Obsidian Systems](https://obsidian.systems/static/images/ObsidianSystemsLogo.svg)](https://obsidian.systems)
