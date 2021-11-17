@@ -1,6 +1,4 @@
-{-# LANGUAGE CPP #-}
 {-# LANGUAGE DerivingStrategies #-}
-{-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
 {-# LANGUAGE StandaloneDeriving #-}
 
@@ -12,11 +10,7 @@ import Data.Aeson
 import Data.ByteString (ByteString)
 import qualified Data.ByteString.Base64 as B64
 import qualified Data.ByteString.Lazy as LBS
-import Data.Ord
 import Data.Text.Encoding (decodeUtf8, encodeUtf8)
-
-deriving newtype instance ToJSON a => ToJSON (Down a)
-deriving newtype instance FromJSON a => FromJSON (Down a)
 
 instance ToJSON ByteString where
     toJSON = toJSON . decodeUtf8 . B64.encode
