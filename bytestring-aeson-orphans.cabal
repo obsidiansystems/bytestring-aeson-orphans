@@ -28,10 +28,8 @@ library
     , base64-bytestring
     , bytestring
     , containers
-    , reflex
     , text
 
   exposed-modules: ByteString.Aeson.Orphans
 
-  other-extensions: TemplateHaskell
   ghc-options: -Wall -fno-warn-unused-do-bind -fwarn-tabs -funbox-strict-fields -O2 -fprof-auto-calls
