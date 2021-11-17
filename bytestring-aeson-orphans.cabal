@@ -28,7 +28,6 @@ library
     , base64-bytestring
     , bytestring
     , containers
-    , reflex
     , text
 
   exposed-modules: ByteString.Aeson.Orphans
