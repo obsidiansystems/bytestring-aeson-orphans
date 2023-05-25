@@ -1,4 +1,7 @@
 # Revision history for bytestring-aeson-orphans
 
-## 2021-11-17
+## v0.1.0.1
+* Loosen aeson version bounds
+
+## v0.1.0.0 2021-11-17
 * First changes. Added code for bytestring JSON instances using AESON.
