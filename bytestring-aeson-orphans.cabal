@@ -1,6 +1,6 @@
 cabal-version:      2.4
 name:               bytestring-aeson-orphans
-version:            0.1.0.1
+version:            0.1.0.2
 synopsis:           Aeson instances for ByteString, using base 64 encoding
 description:
   Encode ByteStrings as valid JSON using Aeson.  The instances provided by this
